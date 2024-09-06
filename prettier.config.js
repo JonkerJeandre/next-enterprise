@@ -1,7 +1,13 @@
 module.exports = {
   plugins: ["prettier-plugin-tailwindcss"],
-  trailingComma: "es5",
+  arrowParens: "always",
+  bracketSpacing: true,
+  bracketSameLine: false,
+  printWidth: 80,
+  proseWrap: "always",
+  semi: true,
+  singleQuote: false,
   tabWidth: 2,
-  printWidth: 120,
-  semi: false,
+  trailingComma: "es5",
+  useTabs: false,
 }
